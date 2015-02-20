@@ -22,7 +22,7 @@ cacheSolve <- function(x, ...) {
   
   # if the inverse has already been calculated
   if (!is.null(inv)){
-   
+  
     message("Retieving cached data")
     return(inv)
   }
